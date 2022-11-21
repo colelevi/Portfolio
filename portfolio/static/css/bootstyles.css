@@ -1,0 +1,46 @@
+.tableau{
+    width:80%;
+    margin:9%
+}
+
+.nav{
+    padding: 15px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+    height:40px;
+}
+
+.header{
+    text-align: center;
+    font-family: monospace;
+    background-image: url("../img/woods3.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 485px;
+}
+
+body{
+    background-color: rgb(238, 245, 220);
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-left: 9%;
+}
+
+a{
+    color: black;
+}
+

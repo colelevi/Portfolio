@@ -1,0 +1,76 @@
+{%extends 'base.html' %}
+{% load static %}
+
+{%block title%} Resume {%endblock%}
+
+{% block content %}
+<!-- Page Header-->
+<header class="masthead" style="background-image: url({% static 'img/woods2.jpg' %});">
+    <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="page-heading">
+                    <h1>About Me</h1>
+                    <span class="subheading">My Resume</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Main Content-->
+<main class="mb-4">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <img src="{% static 'img/fam.jpeg' %}" width=100% alt="Picture of My Family" style="margin-bottom: 10px;">
+                <ol class="white-text">
+                    <li>Education</li>
+                        <ul>
+                            <li>Current Student Brigham Young University</li>
+                            <li>Courses:</li>
+                            <ul>
+                                <li>Data Analytics/ Machine Learning</li>
+                                <li>Database Structures - SQL </li>
+                                <li>Business Programming - Python </li>
+                                <li>Statistics </li>
+                            </ul>   
+                        </ul>
+                    <li>Experience</li>
+                        <ul>
+                            <li>EEG Tech June 2021-June 2022</li>
+                            <li>Security Officer May 2021 - Sept 2021</li>
+                            <li>Farm Hand 2014-2020</li>
+                        </ul>
+                    <li>Extraciriculars</li>
+                        <ul>
+                            <li>First Generation College Student Club</li>
+                                <ul><li>Event Chair Jan 21-April 22</li></ul>
+                            <li>Member of Association Information Systems</li>
+                            <li>Member of Phi Eta Sigma, First Year Honor Society</li>
+                        </ul>
+                    <li>Skills</li>
+                        <ul>
+                            <li>HTML, VBA, SQL, JavaScript, Python, Tableau, OOP</li>
+                            <li>Experience with MySQL, PostgreSQL, GitHub, Azure ML, AWS</li>
+                            <li>Currently Learning R, C++, LUA</li>
+                            <li>Fluent in Spanish <br>
+                            </li>
+                        </ul>
+                </ol>
+                <img src="{% static 'img/bear.jpeg' %}" width=100% alt="Picture of a bear" style="margin-bottom: 10px;"> 
+                <div class="white-text">
+                    <h2>Hobbies</h2>
+                    <ul>
+                        <li>Playing the guitar</li>
+                        <li>Cooking</li>
+                        <ul><li> Here is one of my favorite dishes!</li></ul>
+                    </ul>
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/o_tK9tBByOs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        
+    </div>
+    
+</main>
+{% endblock %}
