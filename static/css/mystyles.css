@@ -1,0 +1,26 @@
+body{
+    background-color: #778959;
+}
+
+footer {
+    background-color: #515e3c;
+}
+
+.container-color{
+    border-radius: 5px ;
+    background-color: #dac09f;
+    padding-top: 20px;
+    box-shadow: 5px 5px 30px rgb(61, 61, 61), 1px 1px 50px rgb(255, 233, 179) inset;
+}
+/* #E1C158 background-color: d0e7b1;*/
+
+hr{
+    background-color: black;
+}
+
+.white-text{
+    background-color: white;
+    border-radius: 5px ;
+    box-shadow: 5px 5px 30px rgb(61, 61, 61)
+}
+
